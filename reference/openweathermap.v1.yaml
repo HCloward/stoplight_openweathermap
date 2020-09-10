@@ -206,6 +206,8 @@ paths:
           in: query
           name: zip
           description: '**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default.'
+      security:
+        - app_id: []
 components:
   schemas:
     unauthorized_response:
